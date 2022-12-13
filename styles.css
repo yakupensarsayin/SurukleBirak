@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+div.box{
+    height: 100%;
+    width: 100%;
+}
+
+div.box div.left-part{
+    height: 100vh;
+    width: 20%;
+    background-color:#3A415B;   
+    float: left;
+}
+
+div.box div.right-part{
+    height: 100vh;
+    width: 80%;
+    background-color: #50577A;
+    float: left;
+}
+
+div.container{
+    height: 20vh;
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container>p{
+    text-align: center;
+    width: 40%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #DC3535;
+}
+
+div.table-container{
+    width: 80%;
+    height: 87%;
+    padding: 5% 10% 0 10%;
+}
+
+.lessons-table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+
+.lessons-table thead th{
+    background-color: #2B4865;
+    color: aliceblue;
+    width: calc(100% / 6);
+    height: 40px;
+    font-size: 18px;
+}
+
+.lessons-table tbody tr{
+    font-size: 18px;
+    height: 52px;
+    
+}
+
+.lessons-table td,
+.lessons-table th{
+    border: 1.6px solid black;
+}
